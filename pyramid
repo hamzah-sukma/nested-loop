@@ -3,9 +3,12 @@ using namespace std;
 
 int main(){
 	
-	int i,j,k;
-	for(int i = 1 ; i <=10; i ++){
-		for(int j = 10; j >= i ; j --){
+	int n,i,j,k;
+	cout<<"masukkan nilai n: ";
+	cin>>n;
+	
+	for(int i = 1 ; i <=n; i ++){
+		for(int j = n; j >= i ; j --){
 			cout << " ";
 		}
 		for(k=1 ; k<=(2*i-1) ; k++)
